@@ -1,0 +1,25 @@
+type( 2 )&int&float&str&
+type( 2.2 )&float&int&str&
+type( \"2.2\" )&str&int&float&
+type(\"True\")&str&bool&NoneType&
+type( 2 < 2.2 )&bool&math&int&
+type( None )&NoneType&str&bool&
+type( type(42) )&type&int&float&
+type( f() )&function&module&list&
+type( math )&module&str&type
+type( math.tan )&builtin function or module&module&string
+type( Exception() )&Exception&module&list&
+type( range(5) )&range&list&set&
+type( [1,2,3] )&list&tuple&set&
+type( (1, 2, 3) ) &tuple&list&set&
+type( {1, 2})&set&dict&list&
+type( {1:42} )&dict&list&set&
+type( 2 + 3j )&complex&float&int&
+Which isn\"t a constant?&Number&None&True&
+Which isn\"t a constant?&String&math.pi&False&
+What is int(5.5)?&5&6&5.5&
+What is bool(0)?&True&False&0&
+What is max(abs(-5), 2, 3, 0)?&5&-5&3&
+NOT (3 to the power of 2)?&3^2&3**2&pow(3, 2)&
+What is 10 // 3?&3&3.3&1&
+What is 10 % 3?&1&3.3&3&
